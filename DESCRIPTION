@@ -1,0 +1,17 @@
+Package: nimbleTestPkg
+Title: Reproducing packaging issues
+Description: I'm making this package to test issues with namespacing in NIMBLE that I think are related to nimbleFunctionVirtual.
+Version: 0.0.1
+Date: 2020-05-15
+Maintainer: Benjamin R. Goldstein <ben.goldstein@berkeley.edu>
+Authors@R: c(person("Benjamin R.", "Goldstein", role = c("aut", "cre"), 
+                      email = "ben.goldstein@berkeley.edu"))
+License: BSD_3_clause + file LICENSE | GPL (>= 2)
+Depends: R (>= 3.1.2), nimble
+Suggests: testthat
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/dochvam/nimbleTestPkg
+Collate:
+  toyNimbleFun.R
+RoxygenNote: 7.1.0

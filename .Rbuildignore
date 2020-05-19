@@ -1,0 +1,10 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^.*\.tar\.gz$
+\.travis\.yml
+\.RDataTmp
+manual_test\.R
+^\.travis\.yml$
+^doc$
+^Meta$
+\.Rmd$
