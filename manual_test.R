@@ -4,6 +4,7 @@
 #   R CMD install nimbleTextPkg_0.0.1.tar.gz
 
 # Make sure to start in a new session so things aren't preloaded
+library(nimble, lib.loc = "C:/Users/Ben/Documents/R/nimble-update-where/")
 
 # Load the package
 require(nimbleTestPkg)
